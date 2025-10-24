@@ -1,0 +1,298 @@
+/* Tablets and Small Laptops (1024px and below) */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+  
+  .navigation {
+    gap: 25px;
+  }
+  
+  .hero-carousel,
+  .hero-client,
+  .hero-community,
+  .hero-unlock,
+  .hero-customer,
+  .community-updates,
+  .demo-section {
+    max-width: 95%;
+  }
+  
+  .carousel-slide {
+    padding: 40px 50px;
+  }
+  
+  .hero-heading {
+    font-size: 36px;
+  }
+  
+  .community-cards,
+  .blog-posts {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .brand-logos {
+    padding: 0 50px;
+  }
+  
+  .hero-unlock,
+  .hero-customer {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  
+  .footer {
+    padding: 40px 50px 20px;
+  }
+  
+  .footer-links {
+    gap: 40px;
+  }
+}
+
+/* Tablets (768px to 1024px) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .navigation {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 20px;
+  }
+  
+  .carousel-slide {
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hero-heading {
+    font-size: 32px;
+  }
+  
+  .hero-visual {
+    margin-top: 30px;
+  }
+  
+  .brand-logos {
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .community-heading,
+  .updates-heading,
+  .demo-heading {
+    font-size: 32px;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-brand {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .footer-links {
+    justify-content: space-between;
+  }
+}
+
+/* Mobile Devices (480px to 768px) */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+  
+  .navbar {
+    padding: 10px 15px;
+  }
+  
+  .navigation {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .navigation li a {
+    font-size: 14px;
+  }
+  
+  .nav-buttons {
+    gap: 10px;
+  }
+  
+  .login-btn,
+  .signup-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  
+  .carousel-slide {
+    padding: 20px;
+  }
+  
+  .hero-heading {
+    font-size: 28px;
+  }
+  
+  .hero-subheading {
+    font-size: 16px;
+  }
+  
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .community-cards,
+  .blog-posts {
+    grid-template-columns: 1fr;
+  }
+  
+  .community-card,
+  .blog-card {
+    margin-bottom: 20px;
+  }
+  
+  .brand-logos {
+    gap: 15px;
+  }
+  
+  .brand-logos img {
+    max-width: 80px;
+  }
+  
+  .hero-client,
+  .hero-community,
+  .hero-unlock,
+  .hero-customer,
+  .community-updates,
+  .demo-section {
+    padding: 20px;
+  }
+  
+  .unlock-heading,
+  .community-heading,
+  .updates-heading,
+  .demo-heading {
+    font-size: 24px;
+  }
+  
+  .footer {
+    padding: 30px 20px 15px;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-column {
+    text-align: center;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+}
+
+/* Small Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+  .hero-heading {
+    font-size: 24px;
+  }
+  
+  .hero-subheading {
+    font-size: 14px;
+  }
+  
+  .register-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  
+  .community-heading,
+  .updates-heading,
+  .demo-heading {
+    font-size: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  
+  .customer-brand {
+    justify-content: center;
+  }
+  
+  .modal-content {
+    width: 95%;
+    margin: 10% auto;
+  }
+  
+  .auth-container {
+    padding: 20px;
+  }
+}
+
+/* Large Desktop Screens (1200px and above) */
+@media (min-width: 1200px) {
+  .navbar,
+  .hero-carousel,
+  .hero-client,
+  .hero-community,
+  .hero-unlock,
+  .hero-customer,
+  .community-updates,
+  .demo-section,
+  .footer {
+    max-width: 1200px;
+  }
+}
+
+/* Landscape Mobile Optimization */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero-carousel {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .carousel-slide {
+    min-height: 100vh;
+    padding: 20px 40px;
+  }
+  
+  .modal-content {
+    margin: 2% auto;
+  }
+}
+
+/* High-DPI Screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .logo img,
+  .brand-logos img,
+  .card-icon img {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
