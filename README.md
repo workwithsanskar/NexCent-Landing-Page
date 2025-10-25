@@ -45,17 +45,18 @@ Nexcent is a modern, responsive landing page built for the Coder Breaker Club Au
 - **Footer**: `#263238` (Dark background)
 
 ## 📁 File Structure
-project/
-├── index.html              # Main landing page
-├── coming-soon.html        # Under construction placeholder
-├── style.css              # Primary stylesheet
-├── media.css              # Responsive styles
-├── script.js              # Interactive functionality
-└── Assets/
-    ├── brand logos/       # Client company logos
-    ├── icons/community/   # Feature icons
-    ├── illustrations/     # Hero and section images
-    └── nexcent-logo-*     # Brand logos (black/white)
+   project/
+        ├── index.html # Main landing page
+        ├── coming-soon.html # Under construction placeholder
+        ├── style.css # Primary stylesheet
+        ├── media.css # Responsive styles
+        ├── script.js # Interactive functionality
+        └── Assets/
+              ├── brand logos/ # Client company logos
+              ├── icons/community/ # Feature icons
+              ├── illustrations/ # Hero and section images
+              └── nexcent-logo-* # Brand logos (black/white)
+
 
 ## ⚡ Interactive Elements
 
